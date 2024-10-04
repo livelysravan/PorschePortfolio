@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <title>Error404</title>
+</head>
+<body>
+    <!-- <h1>About Porsche.</h1> -->
+    <img src="Porschee.png" width="600" height="350">
+    <h2>Welcome to the world of Porsche.</h2>
+    <p>Porsche is a German automobile manufacturer specializing in luxury, high-performance sports cars, SUVs, and sedans1. Founded in 1931, the company is best known for its powerful, precise-handling sports cars, particularly the iconic 9112. The name "Porsche" comes from world-famous designer Ferdinand Porsche, and the brand has created automotive icons such as the 356, 911, 550 Spyder, and 917</p>
+    <h3>History</h3>
+    <p>Ferdinand Porsche (1875–1951) founded the company called "Dr. Ing. h. c. F. Porsche GmbH" with Adolf Rosenberger and Anton Piëch in 1931.The name is short for Ferdinand Porsche's full title in German, Doktor Ingenieur honoris causa lit. 'Doctor of Engineering, Honorary Degree' Ferdinand Porsche.The main offices was at Kronenstraße 24 in the centre of Stuttgart.Initially, the company offered motor vehicle development work and consulting, but did not build any cars under its own name. One of the first assignments the new company received was from the German government to design a car for the people; that is, a Volkswagen.This resulted in the Volkswagen Beetle, one of the most successful car designs of all time.Later, the Porsche 64 would be developed in 1939 using many components from the Beetle.</p>
+    <!-- <h3>Achievements</h3> -->
+    <p></p>
+    <table border="5">
+            <tr>
+              <th>Model</th>
+              <th>Horsepower</th>
+              <th>Top Speed</th>
+              <th>Acceleration[0-60 mph]</th>
+            </tr>
+            <tr>
+              <td>992 911 turbo S</td>
+              <td> 641 HP</td>
+              <td>205 mph</td>
+              <td>2.2 Sec</td>
+            </tr>
+            <tr>
+              <td>918 Spyder</td>
+              <td> 563 HP</td>
+              <td>214 mph</td>
+              <td>2.6 Sec</td>
+            </tr>
+            <tr>
+              <td>992 911 GT3RS</td>
+              <td> 518 HP</td>
+              <td>184 mph</td>
+              <td>3.0 Sec</td>
+            </tr>
+            <h1>Porsche Inquiry and Order Form</h1>
+            <form action="/submit-form" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+        
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+        
+                <label for="model">Porsche Model:</label>
+                <select id="model" name="model" required>
+                    <option value="911">911</option>
+                    <option value="Cayenne">Cayenne</option>
+                    <option value="Panamera">Panamera</option>
+                    <option value="Taycan">Taycan</option>
+                </select><br><br>
+        
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+        
+                <button type="submit">Submit</button>
+            </form>
+    </table>
+</body>
+</html>
+
+
+
